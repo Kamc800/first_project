@@ -1,6 +1,4 @@
 name = "Patrick"
-print(name)
-
 # Always use comments to explain your code
 # Also push to github regularly
 
@@ -10,3 +8,4 @@ print(name)
 # git push
 # git status (to check the status of your files)
 # git log (to check the history of your commits)
+print(name)#my collaborator
