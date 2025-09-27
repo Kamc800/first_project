@@ -12,5 +12,18 @@ print(age / height)
 print(age % height)
 # Floor Division
 print(age // height)
-# Exponetation
+# Exponentiation
 print(age ** height)
+# Comparison Operators
+# Equal to (==)
+print(age == height)
+# Not Equal to (!=)
+print(age != height)
+# Greater than
+print(age > height)
+# Less than
+print(age < height)
+# Greater than or equal to
+print(age >= height)
+# Less than or equal to
+print(age < height)
