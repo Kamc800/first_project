@@ -19,11 +19,19 @@ print(age ** height)
 print(age == height)
 # Not Equal to (!=)
 print(age != height)
-# Greater than
+# Greater than (>)
 print(age > height)
-# Less than
+# Less than(<)
 print(age < height)
-# Greater than or equal to
+# Greater than or equal to (>=)
 print(age >= height)
-# Less than or equal to
-print(age < height)
+# Less than or equal to (<=)
+print(age <= height)
+# And
+x = 8
+z = 6
+print(x > age and z < height)
+# Or
+print(x > age or z < height)
+# Not
+print(not(x > age))
