@@ -77,3 +77,30 @@ while i <= 67:
    else:
       print(i)
    i += 1
+
+
+# Lists
+Fruits = ["apple", "watermelon", "banana"]
+print(Fruits[0])
+print(Fruits[1])
+
+Fruits[2] = "grape"
+print(Fruits)
+
+Fruits.append("dragon fruit")
+print(Fruits)
+
+Fruits.insert(3, "pomegranate")
+print(Fruits)
+
+Fruits.remove("pomegranate")
+print(Fruits)
+
+Fruits.pop()
+print(Fruits)
+
+Fruits.pop(2)
+print(Fruits)
+
+Fruits.reverse()
+print(Fruits)
