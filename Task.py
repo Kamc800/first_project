@@ -104,3 +104,9 @@ print(Fruits)
 
 Fruits.reverse()
 print(Fruits)
+
+Cars = ["Toyota Camry", "Ford Mustang", "Honda Civic"]
+print(Cars[0])
+print(Cars[1])
+print(Cars[2])
+print(Cars)
