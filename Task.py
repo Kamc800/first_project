@@ -53,3 +53,27 @@ for i in range(1, 68):
       print("Banana")
    else:
       print(i)
+
+# While Loop and If Statement
+# Example 1
+number = 1
+
+
+while number <= 20:
+   if number % 2 == 0:  # Checks if the number is even
+      print(number)
+   number += 1   # Increment the number by 1
+
+# Example 2
+i = 1
+
+while i <= 67:
+   if i % 6 == 0 and i % 7 == 0:
+      print("SIXSEVEN!!!")
+   elif i % 6 == 0:
+      print("SIX!!!")
+   elif i % 7 == 0:
+      print("SEVEN!!!")
+   else:
+      print(i)
+   i += 1
