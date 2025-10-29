@@ -110,3 +110,24 @@ print(Cars[0])
 print(Cars[1])
 print(Cars[2])
 print(Cars)
+
+# Dictionary
+#Example
+friend = {
+   "name": "Richard",
+   "age": 11,
+   "Gender": "Male",
+   "year_of_birth": 2013,
+}
+print(friend)
+print(friend["year_of_birth"])
+friend["year_of_birth"] = 2014
+print(friend)
+friend["country"] = "?"
+print(friend)
+if("colour" in friend):
+   print("Yeas there is colour")
+else:
+   print("No colour 😢")
+for key in friend:
+   print(key, ":", friend[key])
