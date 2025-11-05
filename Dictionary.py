@@ -6,3 +6,4 @@ contact_book = {
 }
 print(contact_book)
 print(contact_book["Kamsi"])
+print(contact_book["Richard"])
