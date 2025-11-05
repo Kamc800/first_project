@@ -137,3 +137,22 @@ def greet():
    print("Hello, friend!")
 
 greet()
+
+def add(a, b):
+   return a + b
+print(add(6,7))
+
+name = input("What is your name? ")
+age = input("How old are you? ")
+print("Hello, " + name + "!. " "I believe you are " + age + " years old " + name + ".")
+
+# Test
+Name = input("What is your name? ")
+print("Hello, " + Name + ".")
+Word_Length_Checker = input("Please write any word ")
+print(len(Word_Length_Checker))
+Num1 = int(input("Enter a number "))
+Num2 = int(input("Enter a second number "))
+def sum(Num1, Num2):
+   return Num1 + Num2
+print(sum(Num1, Num2))
