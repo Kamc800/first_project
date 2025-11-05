@@ -126,8 +126,14 @@ print(friend)
 friend["country"] = "?"
 print(friend)
 if("colour" in friend):
-   print("Yeas there is colour")
+   print("Yes there is colour")
 else:
    print("No colour 😢")
 for key in friend:
    print(key, ":", friend[key])
+
+# Functions
+def greet():
+   print("Hello, friend!")
+
+greet()
