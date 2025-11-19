@@ -29,3 +29,19 @@ for i in range(3,15,2):
     print(i)
 
 print(sum(numbers))
+
+# Functions with parameters
+def greet(name):
+    print("Hello, " + name + ".")
+
+greet("Kamsi")
+greet("Bohdan")
+
+def add(x, z):
+    result = x + z
+    print("The result is:", result)
+
+x = int(input("Enter a number for x: "))
+z = int(input("Enter a number for z: "))
+
+add(x, z)
