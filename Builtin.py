@@ -45,3 +45,19 @@ x = int(input("Enter a number for x: "))
 z = int(input("Enter a number for z: "))
 
 add(x, z)
+
+#User defined functions
+number = int(input("Enter a number to check if it is even "))
+
+def check_even (number):
+    if number % 2 == 0:
+        print("The number is Even")
+    else:
+        print("The number is Odd")
+
+check_even(number)
+
+#Coding Challenge
+def find_largest(a, b, c):
+    return max(a, b, c)
+print(find_largest(6, 7, 8))
