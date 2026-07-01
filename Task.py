@@ -158,5 +158,12 @@ def sum(Num1, Num2):
 print(sum(Num1, Num2))
 Biggest_number = max(3,7,8)
 print(Biggest_number)
-Data_Type = type("Enter anything ")
-print(Data_Type)
+
+# Classes and Objects
+
+class Dog:
+   def bark(self):
+      print("Woof woof!")
+
+my_dog = Dog()
+my_dog.bark()
